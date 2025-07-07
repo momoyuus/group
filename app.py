@@ -3,6 +3,7 @@ import argparse
 import os
 from scripts.load_data import loadData
 from scripts.build_product_table import buildProductTable
+from scripts.calc_subgroups import calcSubgroups
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-i', '--input', type=str, required=False, help='入力ファイルのパス')
@@ -18,4 +19,6 @@ if not os.path.exists(inputFileName):
 
 groupData = loadData(inputFileName)
 buildProductTable(groupData)
+data = calcSubgroups(groupData)
 print(groupData)
+print(data)
