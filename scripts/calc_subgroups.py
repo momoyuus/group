@@ -47,7 +47,6 @@ def calcSubgroups(groupData):
         return l
 
     def dfs(i):
-        print(i)
         if i == order:
             if isSubgroup():
                 subgroups.append(toArrays())
