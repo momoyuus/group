@@ -1,0 +1,9 @@
+{
+    "order": 8,
+    "numOfGenerators": 2,
+    "relations": {
+        "a": 4,
+        "b": 2,
+        "ba": [3, 1]
+    }
+}
