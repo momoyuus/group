@@ -39,7 +39,7 @@ def loadData(inputFileName):
                     dfs(i + 1)
             dfs(0)
 
-            groupData.product_table = [[0 for _ in range(groupData.order)] for _ in range(groupData.order)]
+            groupData.productTable = [[0 for _ in range(groupData.order)] for _ in range(groupData.order)]
             groupData.op = [[0 for _ in range(num)] for _ in range(num)]
             for i in range(num):
                 for j in range(num):

@@ -5,8 +5,8 @@ class GroupData:
         self.ords = []
         self.indexMap = dict()
         self.indexMapInv = []
-        self.product_table = [[]]
+        self.productTable = [[]]
         self.op = [[]]
 
     def __str__(self):
-        return f"order={self.order}, numOfGenerators={self.numOfGenerators}, ords={self.ords}, product_table={self.product_table}, indexMap={self.indexMap}, indexMapInv={self.indexMapInv}, op={self.op}"
+        return f"order={self.order}, numOfGenerators={self.numOfGenerators}, ords={self.ords}, productTable={self.productTable}, indexMap={self.indexMap}, indexMapInv={self.indexMapInv}, op={self.op}"
