@@ -53,3 +53,8 @@ def buildProductTable(groupData):
             for k in range(len(now)):
                 t[now[k][0]] = now[k][1]
             groupData.productTable[i][j] = groupData.indexMap[tuple(t)]
+    
+    for i in range(order):
+        for j in range(order):
+            if groupData.productTable[i][j] == 0:
+                groupData.invs[i] = j
