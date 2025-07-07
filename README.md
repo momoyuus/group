@@ -29,3 +29,16 @@ $$
     \langle a, b \mid a^4 = b^2 = e, ba = a^3b \rangle
 $$
 と表した時の情報と対応している．
+
+$\mathbb{Z} / 2\mathbb{Z} \times \mathbb{Z} / 2\mathbb{Z}$ の例
+```json
+{
+    "order": 4,
+    "numOfGenerators": 2,
+    "relations": {
+        "a": 2,
+        "b": 2,
+        "ba": [1, 1]
+    }
+}
+```
